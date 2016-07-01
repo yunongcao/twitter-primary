@@ -71,7 +71,7 @@ var getJSON = function(url, callback) {
 
 
 // var newdata = null;
-getJSON("http://twitter-primary.herokuapp.com/scatter",function(err, data) {
+getJSON("https://twitter-primary.herokuapp.com/scatter",function(err, data) {
       newdata = data
       newdata1 = data
       scatter_viz(newdata1);

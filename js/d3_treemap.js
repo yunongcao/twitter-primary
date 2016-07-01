@@ -58,7 +58,7 @@ var visualization = d3plus.viz()
     .draw() 
 }
 
-getJSON("http://twitter-primary.herokuapp.com/treemap",function(err, data) {
+getJSON("https://twitter-primary.herokuapp.com/treemap",function(err, data) {
       var sample_data1 =  data;
 
       make_viz(sample_data1);

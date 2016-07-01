@@ -88,7 +88,7 @@ var getJSON = function(url, callback) {
 
 var long_short_data = null ;
 
-getJSON("http://twitter-primary.herokuapp.com/bar",function(err, data) {
+getJSON("https://twitter-primary.herokuapp.com/bar",function(err, data) {
       long_short_data= data;  
       bar_viz(long_short_data);
 });
