@@ -19,7 +19,7 @@ var getJSON = function(url, callback) {
 
 var data1 = null ;
 
-getJSON("http://twitter-primary.herokuapp.com/spider",function(err, newdata) {
+getJSON("https://twitter-primary.herokuapp.com/spider",function(err, newdata) {
       data1 = newdata;
       makeviz(data1)
 
