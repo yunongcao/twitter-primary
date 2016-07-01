@@ -1,0 +1,17 @@
+/*viz*/
+#viz {
+	width:100%;
+	height:300px;
+    background-color: "white";
+    font-family: "Pathway Gothic One";
+/*    padding-left: 9px;*/
+}
+
+
+#bg {
+	fill:"white";
+}
+
+text {
+	font-family: "Palanquin";
+}
